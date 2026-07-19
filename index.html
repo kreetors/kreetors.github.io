@@ -1,42 +1,97 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Kreetors</title>
-<link rel="stylesheet" href="css/style.css"></link>
-</head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kreetors - Collectable Trading Cards</title>
+
+    <meta name="description" content="Discover Kreetors, a fun collectable trading card game featuring unique characters to collect, trade and enjoy. Learn about the cards and the Kreetors universe.">
+
+    <meta name="keywords" content="Kreetors, trading cards, collectable cards, collectible cards, card game, characters, trading, collectables">
+
+    <meta name="author" content="Kreetors">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.kreetors.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kreetors - Collectable Trading Cards">
+    <meta property="og:description" content="Collect, trade and discover unique Kreetors cards.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.kreetors.com/">
+    <meta property="og:image" content="https://www.kreetors.com/images/social_preview.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kreetors - Collectable Trading Cards">
+    <meta name="twitter:description" content="Collect and trade Kreetors cards.">
+    <meta name="twitter:image" content="https://www.kreetors.com/images/social_preview.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"WebSite",
+      "name":"Kreetors",
+      "url":"https://www.kreetors.com/",
+      "description":"Kreetors is a collectable trading card series featuring unique characters to collect and trade."
+    }
+    </script>
+
+</head>
+
 <body>
 
-<!-- Header and Sidebar Put this on all pages-->
 <header>
-    <button onclick="toggleSidebar()">☰ Menu</button>
-    <h2>Kreetors</h2>
+    <button onclick="toggleSidebar()" aria-label="Open navigation menu">☰ Menu</button>
+    <h1>Kreetors</h1>
 </header>
 
-<div class="sidebar" id="sidebar">
-    
+<nav class="sidebar" id="sidebar" aria-label="Main Navigation">
+
     <div class="sidebarCloseButton">
-        <button onclick="toggleSidebar()">X</button>
+        <button onclick="toggleSidebar()" aria-label="Close navigation">✕</button>
     </div>
 
     <div>
         <a href="index.html">⌂ Home</a>
-        <a href="about.html">? About</a>
-        <a href="main_cards_explanation.html">🂠 Cards</a>
+        <a href="about.html">About</a>
+        <a href="main_cards_explanation.html">Cards</a>
         <a href="credits.html">Credits</a>
     </div>
 
-</div>
-
-<!-- End of Header and Sidebar -->
+</nav>
 
 <main>
 
-<h1>welcome</h1>
-welcome to the Kreetors web page. Kreetors cards are fun collectable and tradable.
-<br> 
+<section>
+
+<h2>Welcome to Kreetors</h2>
+<p>
+Kreetors is a fun collectable trading card series featuring unique characters to collect, trade and enjoy. Every card introduces a different Kreetor with its own appearance and personality, making each collection unique.
+</p>
+<p>
+Whether you're starting your first collection or looking to complete your set, Kreetors offers an enjoyable experience for collectors of all ages.
+</p>
+</section>
+
+<section>
+
+<h2>What are Kreetors?</h2>
+<p>
+Kreetors are original collectable trading cards created for fans of collecting, swapping and discovering imaginative characters. Browse the cards to learn about each Kreetor and build your collection.
+</p>
+</section>
 
 </main>
 
-<!-- Include Script at Bottom of all Pages-->
+<footer>
+    <p>&copy; 2026 Kreetors</p>
+</footer>
+
 <script src="script/script.js"></script>
 
 </body>

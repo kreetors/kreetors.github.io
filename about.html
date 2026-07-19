@@ -1,48 +1,109 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Kreetors</title>
-<link rel="stylesheet" href="css/style.css"></link>
-</head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Kreetors | The Story Behind the Collectable Cards</title>
+
+    <meta name="description" content="Learn about Kreetors, a collectable trading card series created by five friends from Berkhamsted. Discover how the cards began and the goal behind the collection.">
+
+    <meta name="author" content="Kreetors">
+    <meta name="robots" content="index, follow">
+
+    <!-- Change to your real website URL -->
+    <link rel="canonical" href="https://www.kreetors.com/about.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="About Kreetors">
+    <meta property="og:description" content="Discover the story behind Kreetors and how the collectable card series began.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.kreetors.com/about.html">
+    <meta property="og:image" content="https://www.kreetors.com/images/worm.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"AboutPage",
+      "name":"About Kreetors",
+      "description":"The story behind the Kreetors collectable trading card series.",
+      "url":"https://www.kreetors.com/about.html"
+    }
+    </script>
+
+</head>
+
 <body>
 
-
-<!-- Header and Sidebar Put this on all pages-->
 <header>
-    <button onclick="toggleSidebar()">☰ Menu</button>
-    <h2>Kreetors</h2>
+    <button onclick="toggleSidebar()" aria-label="Open navigation menu">☰ Menu</button>
+    <h1>Kreetors</h1>
 </header>
 
-<div class="sidebar" id="sidebar">
-    
+<nav class="sidebar" id="sidebar" aria-label="Main Navigation">
+
     <div class="sidebarCloseButton">
-        <button onclick="toggleSidebar()">X</button>
+        <button onclick="toggleSidebar()" aria-label="Close navigation">✕</button>
     </div>
 
     <div>
         <a href="index.html">⌂ Home</a>
-        <a href="about.html">? About</a>
-        <a href="main_cards_explanation.html">🂠 Cards</a>
+        <a href="about.html">About</a>
+        <a href="main_cards_explanation.html">Cards</a>
         <a href="credits.html">Credits</a>
     </div>
 
-</div>
-
-<!-- End of Header and Sidebar -->
+</nav>
 
 <main>
 
-    <h1>about</h1>
-    Kreetors was established in 2026 by five friends from Berkhamsted.
-    At first we used paper, pen and pencils but now are cards are printed using 
-    high quality printers. Are first cards included worm, spider, and chomper.
-    are goal is to create fun' high quality cards that kids play with from all over the world.
-    <br>
-    <img src="images/worm.png" >
+<section>
+
+<h2>About Kreetors</h2>
+
+<p>
+Kreetors was established in 2026 by five friends from Berkhamsted who shared a passion for creating fun and imaginative collectable trading cards.
+</p>
+
+<p>
+The first Kreetors cards were designed using paper, pens and pencils. As the collection grew, the cards began to be professionally printed to create colourful, high-quality collectables that would last.
+</p>
+
+<p>
+Some of the very first Kreetors included <strong>Worm</strong>, <strong>Spider</strong> and <strong>Chomper</strong>. These original characters helped shape the growing Kreetors universe.
+</p>
+
+<p>
+Our goal is simple: to create fun, original and high-quality trading cards that children and collectors around the world can enjoy collecting, trading and sharing.
+</p>
+
+<img
+    src="images/worm.png"
+    alt="Worm, one of the original Kreetors collectable trading cards."
+    loading="lazy">
+
+</section>
+
+<section>
+
+<h2>How Kreetors Started</h2>
+
+<p>
+Every Kreetors character begins as an original idea before being illustrated and turned into a collectable card. The collection continues to grow as new characters are created and added to the Kreetors world.
+</p>
+
+</section>
 
 </main>
 
-<script src="script/script.js"></script>
+<footer>
+    <p>&copy; 2026 Kreetors</p>
+</footer>
 
+<script src="script/script.js"></script>
 
 </body>
 </html>
